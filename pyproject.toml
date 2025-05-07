@@ -1,0 +1,16 @@
+[project]
+name = "deep-learning-with-python-notebooks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "scipy>=1.15.2",
+    "tensorflow>=2.19.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
